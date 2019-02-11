@@ -18,7 +18,7 @@ pipeline {
         		script {
           		env.WORKSPACE = pwd()
           		def output = readFile "${env.WORKSPACE}/saltOutput.json"
-          		echo output
+          		echo outputsdfsdf
         		}
         	}
         }
